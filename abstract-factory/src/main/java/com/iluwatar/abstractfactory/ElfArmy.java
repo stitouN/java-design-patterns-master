@@ -13,11 +13,11 @@ public class ElfArmy implements Army, ArmyMembers {
 
   @Override
   public String getDescription() {
-    return DESCRIPTION;
+    return "Description";
   }
 
   @Override
   public List<String> getMembers() {
-    return null;
+    return new ArrayList<>();
   }
 }
